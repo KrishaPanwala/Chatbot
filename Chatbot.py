@@ -10,7 +10,7 @@ import speech_recognition as sr
 import pyttsx3
 import re
 
-GOOGLE_API_KEY = "AIzaSyCqKX3DNKoYl4d-6shJebCI5PlMhEG-fA0"  # Replace with your actual key
+GOOGLE_API_KEY = "Api"  # Replace with your actual key
 genai.configure(api_key=GOOGLE_API_KEY)
 
 model = genai.GenerativeModel('gemini-1.5-pro-latest')
